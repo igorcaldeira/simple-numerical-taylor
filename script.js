@@ -2,9 +2,7 @@
 var app = angular.module('rkApp', []);
 
 app.controller('TodoListController', ['$scope', function($scope) {
-
     $scope.table = [];
-
     // default values
 
     $scope.equation = "(x ^ 2) + y";
